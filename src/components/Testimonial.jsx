@@ -1,9 +1,10 @@
-function Testimonial({ name, quote }) {
+function Testimonial({ name, quote, image }) {
   return (
-    <div style={{ border: "1px solid #ddd", padding: "10px", margin: "10px" }}>
+    <section className="testimonial">
+      <img src={image} alt={name} />
       <p>"{quote}"</p>
       <h4>- {name}</h4>
-    </div>
+    </section>
   )
 }
 

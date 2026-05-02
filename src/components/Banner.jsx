@@ -1,14 +1,9 @@
 function Banner() {
   return (
-    <div style={{
-      background: "#2DD4BF",
-      padding: "20px",
-      textAlign: "center",
-      color: "white"
-    }}>
-      <h2>Special Offer!</h2>
-      <p>Get 50% discount today</p>
-    </div>
+    <section className="banner">
+      <h2>Build Modern Web Applications</h2>
+      <p>Learn React components, props, styling, and reusable UI design.</p>
+    </section>
   )
 }
 

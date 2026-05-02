@@ -1,12 +1,6 @@
-function Button({ text }) {
+function Button({ text, variant }) {
   return (
-    <button style={{
-      padding: "10px 15px",
-      background: "#14B8A6",
-      color: "white",
-      border: "none",
-      borderRadius: "5px"
-    }}>
+    <button className={variant === 'outline' ? 'btn outline' : 'btn'}>
       {text}
     </button>
   )

@@ -1,8 +1,8 @@
 function Footer() {
   return (
-    <footer style={{ marginTop: "20px", textAlign: "center" }}>
-      <p>© 2026 My React App</p>
-      <p>Follow us: Facebook | Instagram | LinkedIn</p>
+    <footer className="footer">
+      <p>© 2026 React Lab 08. All rights reserved.</p>
+      <p>Facebook | Instagram | LinkedIn</p>
     </footer>
   )
 }
